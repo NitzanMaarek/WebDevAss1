@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<font face="Arial">
+<div class="topnav">
+<a href="#about">About Me</a>
+<a href="#photos">My Photos</a>
+<a href="#playlist">My Playlist</a>
+<a href="#like">Like</a>
+<a href="#qrcoder">QR code</a>
+<a href="#spa">Q&A</a>
+<a href="#contact">Contact Me</a>
+<img src=newLogo.png width=118 height=57 align=right/>
+</div>
+<br/>
+<section id="about" class="section">
+<h2 class="padding"></h2>
+<h1 align=center>About Me</h1>
+My name is Kvothe. I consider myself sharp-tounged and wit, but I also consider myself as a fool in rare occasions. I have pale skin and green eyes , however people say that my eyes change color according my mood and atmosphere. I have extremeley red hair often compared to a flame.
+<br>
+<br>
+I am of the Edma-Ruh, which means I travel a lot, never settling at one location. I love to perform and play the lute. I could not get enough of the lute, it is part of me and as a musician would know, is also the most important object i own. The first lute I've owned was broken by a bully like kid in Tarbean. Later I have acquired a new lute during my time at the University. However it was also broken by a man named Ambrose, which then bought me a new lute after a trial at the University, because I hurt him once he broke it. How else a musician would react with nothing in the world beside his instrument broken.
+<br/>
+<br/>
+
+<br/>
+</section>
+
+<section id="photos" class="section">
+<h2 class="padding"></h2>
+<h1 align=center>My Photos</h1>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="playlist" class="section">
+
+<h2 class="padding"></h2>
+<h1 align=center>My Playlist</h1>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="like" class="section">
+<h2 class="padding"></h2>
+<h1 align=center>Give Me A Like</h1>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<h2 class="padding"></h2>
+<h1 align=center>Scan My Code</h1>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<h2 class="padding"></h2>
+<h1 align=center>Q&A</h1>
+<table border="1" align="center" cellpadding="10" cellspaceing="0" bordercolor="#111111" width="50%">
+	<p><u><b>Mention three main differences between Web1.0, Web2.0 and Web3.0:</b></u></p>
+	<tr>	
+		<td width="25%" align="center"><b>Web1.0</b></td>
+		<td width="25%" align="center"><b>Web2.0</b></td>
+		<td width="25%" align="center"><b>Web3.0</b></td>
+	</tr>
+	<tr>
+		<td width="25%">Read-only static web.</td>
+		<td width="25%">Read-write interactive web.</td>
+		<td width="25%">Read-write intelligent web.</td>
+	</tr>
+	<tr>
+		<td width="25%">Professionally developed stand-alone applications.</td>
+		<td width="25%">User-developed open applications.</td>
+		<td width="25%">User-developed smart applications.</td>
+	</tr>
+	<tr>
+		<td width="25%">Syntax-aware basic browsing and search capabilities.</td>
+		<td width="25%">Syntax-aware advanced browsing and search capabilities.</td>
+		<td width="25%">Semantic-aware and context-aware next generation browsing and search capabilities.</td>
+	</tr>
+</table>
+<ol>
+	<br><br>
+	<li>Explain the differences using an example of a use case:</li>
+	The difference between web1: static pages and web3: dynamic pages with hyperlinks.
+</ol>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<h2 class="padding"></h2>
+<h1 align=center>Contact Me</h1>
+<br/>
+<br/>
+<br/>
+</section>
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</font>
+</body>
+</html>
